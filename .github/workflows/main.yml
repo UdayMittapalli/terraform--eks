@@ -26,4 +26,4 @@ jobs:
         aws eks update-kubeconfig --name sudheer-demo --region us-east-1 # Replace with your EKS cluster name and region
 
     - name: Deploy Sample Pod
-      run: kubectl apply -f pod.yaml
+      run: kubectl apply -f sample-pod.yaml
